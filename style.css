@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(133, 132, 132);
+    color: rgb(0, 0, 0);
+}
+/* #p{
+    position: relative;
+    z-index: 1;
+} */
+#menu{
+   position: absolute;
+    text-transform: uppercase;
+    width: 300px;
+    height: 900px;
+    background-color: rgb(195, 233, 139);
+    left: -300px;
+}
+#menu.active{
+    left: 0px;
+}
+
+#menu .btn{
+    position: absolute;
+    font-size: 4rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(107, 211, 94);
+    border-radius: 50%;
+    cursor: pointer;
+    left: 320px;
+}
